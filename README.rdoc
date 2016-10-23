@@ -1,0 +1,10 @@
+Blog
+
+== README
+
+This code is for a blog with authentication using Devise and authorization using Pundit.
+Please consult the Gemfile for a list of the gems used in this app.
+There are 5 database tables.
+Basically, the app first checks a user's authentication and then whether that user is authorized.
+As of now, this app only authorizes an admin.
+If the user is authorized, then the person can create a new blog, post it, delete it, etc.
